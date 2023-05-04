@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>color-code</title>
+</head>
+
+<body>
+	<form id="color-form">
+		<label for="color-name">
+			Color Name:
+		</label>
+
+		<input type="text" id="color-name" name="color-name" required>
+
+		<label for="color-type">
+			Color Type:
+		</label>
+		<select id="color-type" name="color-type">
+			<option value="rgb">
+				RGB
+			</option>
+
+			<option value="rgba">
+				RGBA
+			</option>
+
+			<option value="hex">
+				HEX
+			</option>
+		</select>
+
+		<label for="color-code">
+			Color Code:
+		</label>
+
+		<input type="text" id="color-code" name="color-code" required>
+
+		<button type="submit">
+			Save
+		</button>
+
+		<div id="color-palette">
+		</div>
+	</form>
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>

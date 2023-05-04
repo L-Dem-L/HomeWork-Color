@@ -1,0 +1,25 @@
+form {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 10px auto;
+}
+
+label{
+	margin-top: 15px;
+}
+
+button{
+	margin-top: 15px;
+	background-color: blue;
+	border-color: darkblue;
+	color: white;
+}
+
+li{
+	margin-top: 15px;
+	list-style: none;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
